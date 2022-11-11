@@ -1,7 +1,6 @@
 package parallel;
 
 import org.testng.Assert;
-
 import com.DriverFactory.DriverFactory;
 import com.PageFactory.SelectElementPage;
 
@@ -11,7 +10,7 @@ public class SelectElementSteps {
 	
 	private SelectElementPage page=new SelectElementPage(DriverFactory.getDriver());
 	
-	
+
 	@Given("User redirected to Practice page")
 	public void user_redirected_to_practice_page() {
 	   DriverFactory.getDriver()
